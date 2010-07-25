@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="../media/css/main.css" type="text/css" />
+</head>
+
+<body>
+	
+	<div id="header" ></div>
+		<div id="mainbar">
+			<table></tr>
+				<td><IMG SRC="../media/images/pythonperu.png"></td>
+				<td><button class="main" onClick="javascript:window.location= '/'">
+					<span>__main__</span></button></td>
+				<td><button class="main" onClick="javascript:window.location= 'docs'">
+					<span>docs</span></button></td>
+				<td><button class="main" onClick="javascript:window.location= 'codigo'">
+					<span>código</span></button></td>
+				<td><button class="main" onClick="javascript:window.location= 'comunidad'">
+					<span>comunidad</span></button></td>
+				<td><button class="main" onClick="javascript:window.location= 'faqs'">
+					<span>faqs</span></button></td>		
+				<td><button class="main" onClick="javascript:window.location= 'irc'">
+					<span>#IRC</span></button></td>
+				<td><button class="main" onClick="javascript:window.location= 'contacto'">
+					<span>contacto</span></button></td>
+			</tr></table>
+		</div><br><br>
+	<div id="wrapper">
+		<div id="maincol" >
+			{% block content %}
+			{% endblock %}
+			<br><br>
+		</div>
+
+		<div id="sidebar">
+			<sidebar_title>Links de interés</sidebar_title>
+			<a href="http://www.python.org/">Página Oficial de Python</a>
+			<a href="http://www.linux.org.pe/">PLUG</a>
+		</div>
+<!--		<div id="footer">
+			...<br><br>PyCamp Perú 2010
+		</div>-->
+	</div> 
+
+	
+</body>
+</html> 

@@ -1,0 +1,23 @@
+{% extends "layoutmain.html" %}
+{% block title %} Documentos - Pycamp Perú{% endblock %}
+{% block content %}
+			<h3>Documentación</h3>
+			<p>A continuación una compilación de libros y materiales para brindarte o complementar tus conocimientos sobre Python y programación en general. Puedes sugerir algún recurso que creas conveniente colocar en esta sección <a href="/contacto">escribiéndonos</a>.</p>
+			<h3>Libros/Artículos para principiantes</h3>
+			<p>
+				<ul>
+				<li>Dive into Python (<a href="http://diveintopython.org/">ES</a>/<a href="http://es.diveintopython.org/">ING</a>)
+				<li>How to Think Like a Computer Scientist: Learning with Python (<a href="http://www.openbookproject.net/thinkcs/python/spanish2e/">ES</a>/<a href="http://www.greenteapress.com/thinkpython/thinkCSpy/">ING</a>)
+				</ul>
+			</p>
+			<h3>Para gente con más experiencia</h3>
+			<p>
+				<ul>
+				</ul>
+			</p>
+			<h3>Recursos Misceláneos</h3>
+			<p>
+				<ul>
+				</ul>
+			</p>
+{% endblock %}

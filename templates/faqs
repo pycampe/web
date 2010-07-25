@@ -1,0 +1,2 @@
+{% extends "layoutmain.html" %}
+{% block title %} FAQs - Pycamp Perú{% endblock %}  

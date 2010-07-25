@@ -1,0 +1,11 @@
+{% extends "layoutmain.html" %} 
+{% block title %} Contacto - Pycamp Perú{% endblock %}
+{% block content %}
+			<h3>¿Quiénes somos?</h3>
+			<p>
+			</p>
+
+			<h3>Ponte en contacto con nosotros</h3>
+			<p>Puedes escribirnos a pycampe@gmail.com o buscarnos en el <a href="/irc">IRC</a>
+			</p>
+{% endblock %}

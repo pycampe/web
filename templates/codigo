@@ -1,0 +1,11 @@
+{% extends "layoutmain.html" %}
+{% block title %} Codigo - Pycamp Perú{% endblock %} 
+{% block content %}
+			<h3>Aplicaciones desarrolladas</h3>
+			<p>Aquí podrás ver y descargar los programas que se han desarrollado en reuniones anteriores.
+			</p>
+
+			<h3>Módulos útiles</h3>
+			<p>Modulos o librerías que te harán la vida más facil.
+			</p>
+{% endblock %}

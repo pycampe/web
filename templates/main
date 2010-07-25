@@ -1,0 +1,15 @@
+{% extends "layoutmain.html" %}
+{% block title %} Home - Pycamp Perú{% endblock %} 
+{% block content %}
+			<h3>¿Qué es un PyCamp?</h3>
+			<p>PyCamp (Python Bootcamp) es un evento para congregar a amantes del Software Libre y el lenguaje de programación Python con la finalidad de compartir y poner en práctica conocimientos sobre este lenguaje. Se pone énfasis en el enfoque práctico de esta actividad, en la que se pretende desarrollar algúna herramienta, programa, libreria o juego a discutir entre los participantes.</p>
+			<h3>¿Donde y cuando es?</h3>
+			<p>Por el momento no se ha definido la fecha ni el lugar. La idea es llevar a cabo la jornada entre las 10am y 10pm. Para ver los días y lugares propuestos y/o votar ir a Votación.</p>
+			<h3>¿Cuánto cuesta?</h3>
+			<p>En esta primera reunión hemos acordado se hará colecta para comprar algo de comer en el almuerzo y en la noche. Si alguien quiere llevar algo extra bienvenido sea.</p>
+			<h3>Sólo sé "X" o "Y" ¿Puedo participar?</h3>
+			<p>Por supuesto. La idea del PyCamp es poder aprender y compartir conocimientos sobre este lenguaje y el desarrollo de aplicaciones en general, así que gente con cualquier nivel es bienvenida. Lo único indispensable es tener ganas de contribuir y aprender.</p>
+			<h3>¿Qué tema se desarrollará/trabajará?</h3>
+			<p>Por el momento no hemos decidido por lo que agradecemos sus sugerencias/criticas en la sección Votación</p><br>
+			
+{% endblock %}

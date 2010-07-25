@@ -1,0 +1,16 @@
+{% extends "layoutmain.html" %}
+{% block title %} #IRC - Pycamp Perú{% endblock %}  
+{% block content %}
+			<h3>Canales IRC</h3>
+			<p>Si tienes alguna consulta/duda sobre el Pycamp o quieres conocer a la gente involucrada en el proyecto, date una vuelta por cualquiera de los siguientes canales de Freenode:
+			<ul>
+				<li>#pythonperu
+				<li>#python-pe
+				<li><s>#pycampe</s> (Aun no se encuentra activo)
+			</ul>
+			</p>
+
+			<h3>Si nunca has usado IRC...</h3>
+			<p>Necesitas un cliente IRC para poder conectarte. Puedes encontrar alguno que se ajuste a tus necesidades en la siguiente <a href="http://en.wikipedia.org/wiki/Comparison_of_IRC_clients#General">lista de clientes</a> (Dos muy populares son mIRC para Windows y XChat para Linux).
+			</p>
+{% endblock %}

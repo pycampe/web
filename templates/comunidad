@@ -1,0 +1,11 @@
+{% extends "layoutmain.html" %} 
+{% block title %} Comunidad - Pycamp Perú{% endblock %}
+{% block content %}
+			<h3>Votaciones</h3>
+			<p>
+			</p>
+
+			<h3>Mira fotos de las reuniones anteriores</h3>
+			<p>
+			</p>
+{% endblock %}
